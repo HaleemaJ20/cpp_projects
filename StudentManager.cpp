@@ -73,7 +73,7 @@ void StudentManager::updateStudent(int id) {
             float marks;
 
             cout << "Enter new name: ";
-            cin.ignore();
+            cin.ignore();  //flush buffer
             getline(cin, name);
 
             cout << "Enter new marks: ";
