@@ -30,8 +30,7 @@ void Student::setMarks(float m) { marks = m; }
 
 void Student::setDepartment(string d) { department = d; }
 
-void Student::display()
-{
+void Student::display(){
     cout << left;
     cout << "--------------------------------------\n";
     cout << setw(10) << "ID" << ": " << id << endl;
