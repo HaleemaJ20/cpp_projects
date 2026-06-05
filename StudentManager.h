@@ -13,10 +13,12 @@ public:
     void updateStudent(int id);
     void displayAll();
 
+//sorting functions
     void sortByName();
     void sortByMarks();
     void sortById();
 
+//utility function
     bool isEmpty();
 
     void handleChoice(int choice);
